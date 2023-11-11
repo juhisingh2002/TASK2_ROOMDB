@@ -1,0 +1,57 @@
+<!-- list_item_user.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- TextView for displaying user's full name -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: John Doe"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- TextView for displaying user's email -->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Email: john.doe@example.com"
+        android:textSize="14sp" />
+
+    <!-- TextView for displaying user's phone number -->
+    <TextView
+        android:id="@+id/phoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Phone: 123-456-7890"
+        android:textSize="14sp" />
+
+    <!-- TextView for displaying user's address -->
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:text="Address: 123 Main St"
+        android:textSize="14sp" />
+
+    <!-- TextView for displaying user's country -->
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+
+        android:layout_height="wrap_content"
+        android:text="Country: Example Country"
+        android:textSize="14sp" />
+
+</LinearLayout>
